@@ -26,7 +26,6 @@ body {
 }
 
 .aside-logo {
-  position: relative;
   width: 25%;
   background-image: url("/leaf.jpg");
   background-size: 100% 100%;
@@ -57,5 +56,23 @@ h2 {
 .main-text,
 .signup-form,
 .submit-form {
-  height: 33%;
+  height: 33.33%;
+}
+
+input {
+  display: block;
+}
+
+.form-names,
+.form-contact,
+.form-password {
+  display: flex;
+  gap: 10%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5em;
 }
